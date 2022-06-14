@@ -1,0 +1,13 @@
+<div id="ajaxresponse"></div>
+<?php
+$ajaxurl = '/adi_banner/page/view';
+?>
+<script type="text/x-magento-init">
+        {
+            "*": {
+                "Adesh_Banner/js/banner-ajax": {
+                    "AjaxUrl": "<?php echo $ajaxurl; ?>"
+                }
+            }
+        }
+</script>
